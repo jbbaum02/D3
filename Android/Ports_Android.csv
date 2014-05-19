@@ -1,0 +1,8 @@
+Name,PID,ProcessName,
+Port 35141,1644,com.android.browser,
+Port 47984,1644,com.android.browser,
+Port 53011,320,system_server,
+Port 56411,1644,com.android.browser,
+Port 56412,1644,com.android.browser,
+Port 56920,1687,com.android.quicksearchbox,
+Port 60023,1644,com.android.browser,

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<title>Forensic Data Visualization D3.js</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="headerRight" style="width:350px; right:120px;">
+            <div class="hint" style="font-size:26px; color:#000;">
+                Forensic Data Visualization using D3 JavaScript
+            </div>
+</div>
+<div id="toolTip" class="tooltip" style="width:250px; height:120px; position:absolute;s">
+        <div id="header1" class="header2"></div>
+		<div class="header-rule"></div>
+        <div id="head" class="header"></div>
+        <div  class="tooltipTail"></div>
+</div>
+<div id="procInfoDiv">
+		<div id="header_SUMMARY"></div>		
+		<div id="header_NAME"></div>
+		<div id="header_PID"></div>
+		<div id="header_PPID"></div>
+		<div id="header_USER"></div>
+		<div id="header_TYPE"></div>
+		<div id="header_STATUS"></div>
+		<div id="header_VSIZE"></div>
+		<div id="header_RSS"></div>
+		<div id="header_WCHAN"></div>
+		<div id="header_PC"></div>
+		<div id="header_DATASET"></div>		
+</div>
+<table width="53%" style="left:260px; position:absolute;">
+  <tr>
+	<td align="right"><form>
+						<select id="datasetList" onchange="currentDataset()">
+						  <option>Datasets</option>
+						  <option>WinXP IE</option>
+						  <option>WinXP Chrome</option>  
+						  <option>WinXP Firefox</option>
+						  <option>WinXP Solitaire</option>
+						  <option>WinXP Malware 1</option>
+						  <option>WinXP Malware 2</option>
+						  <option>WinXP Malware 3</option>
+						  <option>Windows 7</option>
+						  <option>Android 4.3</option>
+						</select>
+						</form></td>
+    <td align="right"><button class="FetchData"><strong>FetchData</strong></button></td>
+	<td align="right"><button class="Initialize"><strong>Initialize Data</strong></button></td>
+	<td align="right"><button class="SystemView"><strong>System View</strong></button></td>
+	<td align="right"><button class="Unique"><strong>Apply Resource Filter</strong></button></td>
+	<td align="right"><button class="ToggleLinks"><strong>Toggle Links</strong></button></td>
+	<td align="right"><button class="ApplyWhitelist"><strong>Toggle Whitelist</strong></button></td>
+	<td align="right"><form>
+						<select id="whiteList" onchange="currentWhitelist()">
+						  <option>Whitelist Dataset</option>
+						  <option>WinXP IE</option>
+						  <option>WinXP Chrome</option>  
+						  <option>WinXP Firefox</option>
+						  <option>WinXP Solitaire</option>
+						  <option>WinXP Malware 1</option>
+						  <option>WinXP Malware 2</option>
+						  <option>WinXP Malware 3</option>
+						</select>
+						</form></td>	
+  <tr>
+</table>
+
+<script src="d3.v3.min.js"></script>
+<script type="text/javascript" src="globals.js"></script>
+<script type="text/javascript" src="initialize.js"></script>
+<script type="text/javascript" src="get.js"></script>
+<script type="text/javascript" src="update.js"></script>
+<script type="text/javascript" src="events.js"></script>
+<script type="text/javascript" src="buttons.js"></script>
+
+<script>
+	onStart();
+	
+</script>
+</body>

@@ -1,0 +1,68 @@
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       232 N/A                                         
+csrss.exe                      320 N/A                                         
+wininit.exe                    360 N/A                                         
+csrss.exe                      372 N/A                                         
+services.exe                   416 N/A                                         
+winlogon.exe                   448 N/A                                         
+lsass.exe                      460 EFS, KeyIso, SamSs                          
+lsm.exe                        468 N/A                                         
+svchost.exe                    576 DcomLaunch, PlugPlay, Power                 
+svchost.exe                    656 RpcEptMapper, RpcSs                         
+svchost.exe                    744 AudioSrv, Dhcp, eventlog, lmhosts, wscsvc   
+svchost.exe                    784 AudioEndpointBuilder, CscService, Netman,   
+                                   PcaSvc, SysMain, TrkWks, UxSms, Wlansvc,    
+                                   wudfsvc                                     
+svchost.exe                    812 EventSystem, FontCache, netprofm, nsi,      
+                                   W32Time, WdiServiceHost                     
+svchost.exe                    836 AeLookupSvc, Appinfo, BITS, CertPropSvc,    
+                                   EapHost, gpsvc, iphlpsvc, LanmanServer,     
+                                   ProfSvc, Schedule, SENS, ShellHWDetection,  
+                                   Themes, Winmgmt, wuauserv                   
+svchost.exe                    464 CryptSvc, Dnscache, LanmanWorkstation,      
+                                   NlaSvc                                      
+dwm.exe                       1120 N/A                                         
+spoolsv.exe                   1180 Spooler                                     
+explorer.exe                  1212 N/A                                         
+svchost.exe                   1252 FDResPub, SCardSvr, SSDPSRV                 
+svchost.exe                   1280 BFE, DPS, MpsSvc                            
+armsvc.exe                    1396 AdobeARMservice                             
+taskhost.exe                  1404 N/A                                         
+AppleMobileDeviceService.     1528 Apple Mobile Device                         
+igfxtray.exe                  1592 N/A                                         
+hkcmd.exe                     1604 N/A                                         
+igfxpers.exe                  1652 N/A                                         
+CodeMeterCC.exe               1748 N/A                                         
+igfxsrvc.exe                  1768 N/A                                         
+mDNSResponder.exe             1788 Bonjour Service                             
+pg_ctl.exe                    1040 postgresql-x64-9.0                          
+svchost.exe                   1204 stisvc                                      
+vmnat.exe                     1072 VMware NAT Service                          
+postgres.exe                  1096 N/A                                         
+conhost.exe                    732 N/A                                         
+vmware-tray.exe                980 N/A                                         
+postgres.exe                  1732 N/A                                         
+vmnetdhcp.exe                 2060 VMnetDHCP                                   
+vmware-usbarbitrator64.ex     2100 VMUSBArbService                             
+CodeMeter.exe                 2120 CodeMeter.exe                               
+vmware-authd.exe              2196 VMAuthdService                              
+postgres.exe                  2368 N/A                                         
+postgres.exe                  2376 N/A                                         
+postgres.exe                  2384 N/A                                         
+postgres.exe                  2392 N/A                                         
+WmiPrvSE.exe                  2508 N/A                                         
+vmware-hostd.exe              2560 VMwareHostd                                 
+WmiPrvSE.exe                  2608 N/A                                         
+SearchIndexer.exe             2760 WSearch                                     
+WUDFHost.exe                  2428 N/A                                         
+WmiPrvSE.exe                  3188 N/A                                         
+svchost.exe                   4088 WinDefend                                   
+cmd.exe                        616 N/A                                         
+conhost.exe                   2852 N/A                                         
+SearchProtocolHost.exe         272 N/A                                         
+SearchFilterHost.exe          2172 N/A                                         
+tasklist.exe                  2488 N/A                                         
